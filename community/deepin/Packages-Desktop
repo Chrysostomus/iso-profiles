@@ -1,12 +1,14 @@
 alsa-firmware
 alsa-utils
->extra autoconf
->extra automake
+autoconf
+automake
 avahi
 >extra baobab
->extra binutils
->extra bison
+binutils
+bison
+fakeroot
 >extra firefox
+flex
 >extra dconf-editor
 deepin-calendar
 >extra deepin-calculator
@@ -25,18 +27,16 @@ dmidecode
 >extra downgrade
 >extra evince
 >extra evolution
->extra fakeroot
 >extra file-roller
->extra flex
 >extra galculator
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
 gedit
 >extra gimp
+>extra git
 gksu
 >extra gparted
-#>extra gnome-system-monitor
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
@@ -54,12 +54,13 @@ inxi
 >extra isousb
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
+>multilib lib32-flex
 >extra libdvdcss
 >extra libimobiledevice
 >extra libreoffice-fresh
->extra libtool
->extra m4
->extra make
+libtool
+m4
+make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-deepin-settings
@@ -85,14 +86,18 @@ nss-mdns
 ntp
 openresolv
 pamac
->extra patch
+patch
+>extra patchutils
+pkg-config
 polkit-gnome
 >extra poppler-data
 >extra powertop
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra redshift
 screenfetch
+>extra subversion
 >extra sushi
 syslog-ng
 terminus-font

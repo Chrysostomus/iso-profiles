@@ -174,7 +174,8 @@ kcalc
 kfind
 kdeconnect
 okular
->extra kget
+>extra >x86_64 kget
+>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
 kde-servicemenus-rootactions
@@ -185,7 +186,6 @@ konsole
 konversation
 ksystemlog
 kwalletmanager
-kwrite
 gwenview
 partitionmanager
 >extra print-manager

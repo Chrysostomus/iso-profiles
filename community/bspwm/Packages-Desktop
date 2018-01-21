@@ -1,4 +1,3 @@
-dbus-x11
 adwaita-maia-gtk3
 alsa-firmware
 alsa-plugins
@@ -30,6 +29,7 @@ gnome-disk-utility
 gtk3-classic
 gtk2-compatibility
 gtk-theme-breath
+grub-theme-manjaro-dev
 gufw
 gvfs
 hibernator
@@ -43,7 +43,7 @@ limepanel
 lxappearance-gtk3
 maia-console
 manjaro-architect
-manjaro-browser-settings
+manjaro-browser-settings-native
 manjaro-bspwm-settings
 manjaro-pulse
 manjaro-zsh-config
@@ -84,6 +84,7 @@ thermald
 tree
 udevil
 w3m
+xcape
 xcursor-breeze
 xdg-su
 xdg-user-dirs
@@ -101,6 +102,5 @@ xorg-xinit
 xorg-xprop
 xorg-xsetroot
 zathura-pdf-poppler
-zenity
 zensu
 zsh-completions

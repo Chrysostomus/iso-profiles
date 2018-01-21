@@ -27,6 +27,7 @@ gcc
 gcolor2
 gconf
 gimp
+git
 gksu
 gnome-keyring
 gparted
@@ -37,6 +38,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
+gtk3-classic
 gtksourceview-pkgbuild
 gufw
 gvfs
@@ -49,10 +51,13 @@ htop
 inxi
 isousb
 json-c
+kvantum-manjaro
+>multilib lib32-flex
 libdvdcss
 libgpod
 libtool
-lightdm-gtk-greeter-settings
+lightdm-settings
+lightdm-slick-greeter
 lm_sensors
 lxappearance
 lxinput
@@ -94,6 +99,7 @@ p7zip
 palemoon-bin
 pamac
 patch
+patchutils
 pcmanfm
 perl-file-mimeinfo
 pkg-config
@@ -106,6 +112,7 @@ ranger
 sbxkb
 screenfetch
 speedtest-cli
+subversion
 syslog-ng
 terminus-font
 transmission-gtk
@@ -117,6 +124,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 upower
+vertex-maia-themes
 vi
 vibrancy-colors
 viewnior
