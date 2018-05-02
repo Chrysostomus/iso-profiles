@@ -44,28 +44,6 @@ mtpfs
 udiskie
 udisks2
 
-## AUR Support/Development
-# Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
-git
-patchutils
-subversion
-yaourt
-
 ## Display manager
 lightdm
 lightdm-gtk-greeter
@@ -73,17 +51,7 @@ lightdm-gtk-greeter-settings
 accountsservice  # Enhanced user accounts handling
 
 ## LXDE Group
-lxappearance-obconf
-lxde-common
-lxhotkey
-lxinput
-lxlauncher
-lxpanel
-lxrandr
-lxsession
-lxtask
-lxterminal
-pcmanfm
+lxde-gtk3
 
 ## Essential stuff for good LXDE experience
 xfce4-power-manager
@@ -95,7 +63,6 @@ blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
 gconf              # fix qt-theme
-gksu
 gnome-keyring      # fix wlan segfault
 gtk3-classic
 libgsf             # tumbler - for ODF thumbnails
@@ -114,6 +81,7 @@ qt5-styleplugins
 gnome-icon-theme
 gnome-themes-standard
 ttf-dejavu
+terminus-font
 
 ## Basic Applications
 manjaro-hello
@@ -124,14 +92,15 @@ gnome-disk-utility
 gparted
 inxi
 dmidecode # optional dependency inxi
-leafpad
+l3afpad
 scrot
-firefox
-hexchat
+extra> firefox
+basic> midori
+extra> hexchat
 
 epdfview
 gpicview
-galculator-gtk2
+galculator
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -170,24 +139,13 @@ manjaro-hotfixes
 
 ##### EXTRA - TO BE INCLUDED IN NETGROUPS #####
 
-## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
-
 ## Printing Support
 >extra manjaro-printer
->extra gtk3-print-backends
->extra pyqt5-common # For hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-reportlab # For hplip
 
 ## Scanner Support
 >extra simple-scan
 
 ## Extra Fonts
->extra terminus-font
 >extra ttf-bitstream-vera
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -207,7 +165,6 @@ manjaro-hotfixes
 >extra gufw
 >extra guvcview
 >extra transmission-gtk
->extra gimp
 >extra libreoffice-fresh
 >extra vlc-nightly
 >extra thunderbird
